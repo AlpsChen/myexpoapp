@@ -6,19 +6,16 @@ import {
 } from 'react-native';
 
 export default class App extends React.Component {
-<<<<<<< HEAD
   //登入功能
-=======
   //bug修好了
->>>>>>> fixBug
   render() {
     return ( <
       View style = {
         styles.container
       } >
       <
-      Text > Hello World! < /Text> <
-      /View>
+      Text > Hello World! < /Text> < /
+      View >
     );
   }
 }
