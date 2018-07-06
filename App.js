@@ -1,13 +1,24 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  View
+} from 'react-native';
 
 export default class App extends React.Component {
+<<<<<<< HEAD
   //登入功能
+=======
+  //bug修好了
+>>>>>>> fixBug
   render() {
-    return (
-      <View style={styles.container}>
-        <Text>Hello World!</Text>
-      </View>
+    return ( <
+      View style = {
+        styles.container
+      } >
+      <
+      Text > Hello World! < /Text> <
+      /View>
     );
   }
 }
