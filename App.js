@@ -16,6 +16,7 @@ export default class App extends React.Component {
       <
       Text > Hello World! < /Text> < /
       View >
+      //開發好了題庫功能
     );
   }
 }
